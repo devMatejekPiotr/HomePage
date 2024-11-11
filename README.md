@@ -5,7 +5,7 @@
 </p>
      
 ## Demo
-Check out: [HomePage](https://devmatejekpiotr.github.io/homepage/)
+Check out: [HomePage](https://devmatejekpiotr.github.io/HomePage/)
 
 ## Description
 This is my first homepage I've ever made. It's very simple without any BOOM!!! :) But this is the begining journey of my learning frontend applications.
