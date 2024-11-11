@@ -1,0 +1,25 @@
+.imgContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.imgContainer__figure {
+  max-width: 30%;
+  text-align: center;
+}
+
+.imgContainer__image {
+  max-width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: scale 0.3s;
+}
+
+.imgContainer__image:hover {
+  scale: 1.1;
+}
+
+.imgContainer__text {
+  margin-top: 10px;
+  font-size: small;
+}

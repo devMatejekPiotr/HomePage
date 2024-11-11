@@ -1,0 +1,29 @@
+.header {
+  padding: 20px;
+  background-color: #fffae6;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header__title {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.header__paragraf {
+  letter-spacing: 3px;
+}
+
+.header__button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.header__button:hover {
+  background-color: #555;
+}

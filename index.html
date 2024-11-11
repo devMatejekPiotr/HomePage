@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wnętrza z klasą</title>
+    <link rel="icon" href="images/icon.webp">
+    <meta
+      property="og:image"
+      content="images/homepage.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/navList.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/imgContainer.css" />
+    <link rel="stylesheet" href="./styles/section.css" />
+    <link rel="stylesheet" href="./styles/table.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <nav>
+      <ul class="navList">
+        <li>
+          <a class="navList__link" href="#header">Strona Główna</a>
+        </li>
+        <li>
+          <a class="navList__link" href="#about">O nas</a>
+        </li>
+        <li>
+          <a class="navList__link" href="#offer">Oferta</a>
+        </li>
+        <li>
+          <a class="navList__link" href="#contact">Kontakt</a>
+        </li>
+      </ul>
+    </nav>
+    <header class="header" id="header">
+      <h1 class="header__title">Wnętrza z klasą</h1>
+      <p class="header__paragraf">
+        Profesjonalen dekoracje wnętrz dla Twojego domu
+      </p>
+      <button class="header__button">Dowiedz się więcej</button>
+    </header>
+    <main>
+      <section id="about" class="section">
+        <h2 class="section__item">O nas</h2>
+        <p class="section__item js-toggleText">
+          Jesteśmy zespołem profesjonalistów, którzy od lat pomagają tworzyć
+          wyjątkowe wnętrza.
+        </p>
+      </section>
+      <article class="imgContainer">
+        <figure class="imgContainer__figure">
+          <img
+            class="imgContainer__image"
+            src="./images/DALL·E 2024-11-02 06.02.14 - A modern Scandinavian living room design, featuring light wooden furniture, soft pastel colors, and minimalistic decor. The room should have large win.webp"
+          />
+          <figcaption class="imgContainer__text">
+            The modern Scandinavian living room
+          </figcaption>
+        </figure>
+        <figure class="imgContainer__figure">
+          <img
+            class="imgContainer__image"
+            src="./images/DALL·E 2024-11-02 06.02.18 - A beautiful kitchen with a modern design, featuring white cabinets, marble countertops, and stainless steel appliances. The kitchen should be bright a.webp"
+          />
+          <figcaption class="imgContainer__text">
+            Kitchen with a modern design
+          </figcaption>
+        </figure>
+        <figure class="imgContainer__figure">
+          <img
+            class="imgContainer__image"
+            src="./images/DALL·E 2024-11-02 06.02.21 - A stylish bedroom featuring a contemporary design, with a large bed adorned with soft bedding, minimalistic furniture, and large windows allowing ampl.webp"
+          />
+          <figcaption class="imgContainer__text">
+            The stylish bedroom
+          </figcaption>
+        </figure>
+      </article>
+      <section id="offer" class="section">
+        <table class="table">
+          <thead>
+            <tr class="table__row">
+              <th class="table__heading table__heading--border" scope="col">
+                Usługa
+              </th>
+              <th class="table__heading table__heading--border" scope="col">
+                Cena
+              </th>
+              <th class="table__heading table__heading--border" scope="col">
+                Opis
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="table__row">
+              <th class="table__heading table__heading--color" scope="row">
+                Projektowanie wnętrz
+              </th>
+              <td class="table__cell">1 PLN</td>
+              <td class="table__cell">Pełna aranżacja pomieszczenia</td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__heading table__heading--color" scope="row">
+                Dekoracja świąteczna
+              </th>
+              <td class="table__cell">2 PLN</td>
+              <td class="table__cell">Stworzenie świątecznego klimatu</td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__heading table__heading--color" scope="row">
+                Konsultacje
+              </th>
+              <td class="table__cell">3 PLN</td>
+              <td class="table__cell">Porady i sugestie dotyczące dekoracji</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+    <footer id="contact" class="footer">
+      <p>
+        Skontaktuj się z nami:
+        <a class="footer__link" href="mailto:kontakt@blablabla.pl"
+          >kontakt@blablabla.pl</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
