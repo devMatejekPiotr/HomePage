@@ -1,4 +1,4 @@
-# 🛖🛖🛖MMy First HomePage 🛖🛖🛖
+# 🛖🛖🛖My First HomePage 🛖🛖🛖
 
 <p>
    <img src='images/homepage.png' alt='homepage' width='400'/>
@@ -8,7 +8,7 @@
 Check out: [HomePage](https://devmatejekpiotr.github.io/homepage/)
 
 ## Description
-This is my first homepage I've ever made. It's very simple without any BOOM!!! :) But this is thr begining journey of my learning frontend applications.
+This is my first homepage I've ever made. It's very simple without any BOOM!!! :) But this is the begining journey of my learning frontend applications.
 
 ## Technologies
 - **HTML5**
